@@ -43,7 +43,7 @@ typedef struct fs_quirk_t {
     int quirks;
 } fs_quirk_t;
 
-#define MOUNT_PATH      "/mnt/"
+#define MOUNT_PATH      "/media/"
 #define CALLBACK_PATH   NULL
 #define OPT_FMT         "uid=%i,gid=%i"
 #define MAX_DEVICES     20
